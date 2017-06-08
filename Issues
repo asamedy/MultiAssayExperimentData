@@ -1,1 +1,2 @@
-
+#fix  TCGA data that Patient IDs are shorter than Sample IDs but share a common set of identifying information.
+.generateMap(colData, experiments, TCGAutils::TCGAbarcode)
