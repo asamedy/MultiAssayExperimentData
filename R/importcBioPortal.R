@@ -175,6 +175,4 @@ cbioportal2clinicaldf <- function(file) {
       "Strand"
     ) %in% cn)
   ifelse(is.gr, "cbioportal2grl", "cbioportal2se")
-}
-
-               
+}               
