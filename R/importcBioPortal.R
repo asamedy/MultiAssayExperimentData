@@ -176,3 +176,5 @@ cbioportal2clinicaldf <- function(file) {
     ) %in% cn)
   ifelse(is.gr, "cbioportal2grl", "cbioportal2se")
 }
+
+               
